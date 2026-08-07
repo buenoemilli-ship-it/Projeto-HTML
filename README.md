@@ -28,3 +28,8 @@ background-color: #FFFFFF;
 background-color: #FFFFFF;
 color: #183C63;
 }text-align: center;max-width: 800px;margin: 0 auto;
+<img src="imagem-blog.png" alt="logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
+img {
+width: 80px;
+height: 80px;
+}
