@@ -1,3 +1,4 @@
+main {
 <header>
 <h1>Meu blog tech</h1>
 <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
@@ -32,4 +33,19 @@ color: #183C63;
 img {
 width: 80px;
 height: 80px;
+}
+main {
+display: flex;
+}<div>
+<h2>Meu primeiro post</h2>
+<p>Por: Eilli Vitória</p>
+<p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
+</div>
+p {
+font-weight: bold;
+}div p {
+font-weight: bold;
+}<p class="artigo-autor">Por: Emilli Vitória </p>
+.artigo-autor {
+font-weight: bold;
 }
