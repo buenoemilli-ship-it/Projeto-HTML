@@ -49,3 +49,21 @@ font-weight: bold;
 .artigo-autor {
 font-weight: bold;
 }
+<button></button>
+<button>❤️</button>
+<button>❤️<span>0</span></button>
+<script>
+
+</script>
+const botao = document.querySelector("button");
+botao.addEventListener("click", botaoClicado);
+function botaoClicado() {
+
+}
+function botaoClicado() {
+console.log("fui clicado");
+}
+function botaoClicado() {
+let texto = botao.querySelector("span");
+texto.textContent++;
+}
