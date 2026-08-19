@@ -74,7 +74,7 @@ texto.textContent++;
 
         <div>
             <h2>Meu primeiro post</h2>
-            <p class="artigo-autor">Por: Marcelo Paludetto</p>
+            <p class="artigo-autor">Por: Emilli vitoria</p>
             <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação
                 e curiosidades da área de tecnologia.</p>
             <button>��<span>0</span></button>
@@ -87,7 +87,7 @@ texto.textContent++;
 
         <div>
             <h2>Meu primeiro post</h2>
-            <p class="artigo-autor">Por: Marcelo Paludetto</p>
+            <p class="artigo-autor">Por: Emilli Vitoria</p>
             <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação
                 e curiosidades da área de tecnologia.</p>
             <button>��<span>0</span></button>
@@ -133,7 +133,7 @@ alt="Logotipo conceitual de tecnologia e educacao: um livro aberto de onde emerg
 
 <div>
 <h2>Meu primeiro post</h2>
-<p class="artigo-autor">Por: Marcelo Paludetto</p>
+<p class="artigo-autor">Por: Emilli vitoria</p>
 <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação
 e curiosidades da área de tecnologia.</p>
 <button>❤️<span>0</span></button>
@@ -147,7 +147,7 @@ alt="Logotipo conceitual de tecnologia e educacao: um livro aberto de onde emerg
 
 <div>
 <h2>Meu primeiro post</h2>
-<p class="artigo-autor">Por: Marcelo Paludetto</p>
+<p class="artigo-autor">Por: Emilli vitoria</p>
 <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação
 e curiosidades da área de tecnologia.</p>
 <button>❤️<span>0</span></button>
