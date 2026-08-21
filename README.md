@@ -1,4 +1,7 @@
 main {
+:root {
+/* Nossas variáveis de cor ficarão aqui dentro */
+}
 <header>
 <h1>Meu blog tech</h1>
 <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
@@ -294,3 +297,60 @@ article {
     padding: 16px;
     flex: 1 1 25%;
 }
+<p class="artigo-fonte">Fonte: <a href="https://www.tnmoc.org/colossus">The National Museum of Computing</a></p>
+<a href="https://www.tnmoc.org/colossus" target="_blank">The National Museum of Computing</a>
+<!-- Exemplo de href para arquivo e rel -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Exemplo de src para scripts -->
+<script src="script.js"></script>
+<h2 class="titulo-post">Primeira notícia</h2>
+<h2 class="titulo-post">Segunda notícia</h2>
+<h2 class="titulo-post">Terceira notícia</h2>
+.titulo-post {
+color: blue;
+font-size: 24px;
+}<h1 id="titulo-principal">Meu Blog de Tecnologia</h1>
+#titulo-principal {
+text-align: center;
+}
+:root {
+    --cor-primaria: #183C63;
+    --cor-secundaria: #3782d2;
+    --cor-fundo: #ffffff;
+    --cor-texto: #151428;
+    --cor-contraste: #f3eef7;
+    --cor-botao: #f9f9f9;
+}header {
+    background-color: var(--cor-primaria);
+}
+
+main {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+    <!-- No arquivo index.html -->
+    <body class="tema-escuro">
+    /* No arquivo style.css */
+    .tema-escuro {
+    --cor-primaria: #c9e3ff; /* Um azul mais claro para destacar no fundo escuro */
+    --cor-fundo: #151428;    /* Fundo escuro */
+    --cor-texto: #ffffff;   /* Texto branco */
+    /* Continue invertendo as cores conforme o seu layout */
+}
+.tema-escuro a {
+    color: var(--cor-secundaria);
+}
+.tema-escuro p {
+    color: var(--cor-texto);
+}
+.tema-escuro header p {
+    color: var(--cor-contraste);
+}
+--fonte-texto:
+body {
+    max-width: 100vw;
+    font-family: 'Segoe UI', sans-serif;
+}
+--fonte-texto: 'Segoe UI', sans-serif;
+
