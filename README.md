@@ -238,3 +238,59 @@ botoes.forEach(function (botao) {
     }
 });
 <script src="script.js"></script>
+<article>
+    <img src="imagem-blog.png" 
+         alt="Descrição da imagem para acessibilidade">
+    <div>
+        <h2>Título da Nova Curiosidade</h2>
+        <p class="artigo-autor">Por: Nome do Autor</p>
+        <p>Texto da curiosidade tecnológica aqui.</p>
+        <button>❤️<span>0</span></button>
+        <button>��<span>0</span></button>
+    </div>
+</article>
+<p>
+Primeira parte do texto sobre computação.
+<br><br>
+Segunda parte do texto, que agora aparece em uma nova linha.
+</p>
+<p class="artigo-fonte">Fonte: The National Museum of Computing</p>
+meu-blog/
+│
+├── index.html
+├── style.css
+├── script.js
+└── imagens/
+├── mouse-antigo.png
+├── bluetooth.png
+└── tecnologia.jpg
+<img src="imagens/bluetooth.png"
+alt="Imagem representando o símbolo do Bluetooth">
+primeiro-mouse.png
+historia-computador.jpg
+teclado-gamer.png
+body {
+    max-width: 100vw;
+}
+main {
+    display: flex;
+}
+article {
+    display: flex;
+    border: 1px solid #183C63;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #183C63;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 25%;
+}
