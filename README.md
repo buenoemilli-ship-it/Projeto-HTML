@@ -6,8 +6,46 @@ main {
 <h1>Meu blog tech</h1>
 <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
 </header>
-
 <main>
+    <!-- ... outros artigos ... -->
+
+<button class="btn-tema-escuro">��</button>
+</main>
+.btn-tema-escuro {
+    position: fixed;
+    bottom: 16px; /* Distância da borda de baixo */
+    right: 16px;  /* Distância da borda da direita */
+    font-size: 32px; /* Tamanho do emoji */
+    padding: 12px;   /* Espaço interno entre o emoji e a borda */
+    background-color: var(--cor-primaria); /* Cor de fundo usando nossa variável */
+    border-radius: 50%; /* Deixa o botão perfeitamente redondo */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Muda o mouse para a "mãozinha" ao passar por cima */
+}
+const btnTemaEscuro;
+const btnTemaEscuro = document.querySelector(".btn-tema-escuro");
+btnTemaEscuro.addEventListener("click", mudaTema);
+function mudaTema() {
+    const corpoPagina = document.body;
+
+    if (corpoPagina.classList.contains("tema-escuro")) {
+        corpoPagina.classList.remove("tema-escuro");
+    } else {
+        corpoPagina.classList.add("tema-escuro");
+    }
+}
+/* Estilo específico para o botão quando o tema escuro estiver ativo */
+.tema-escuro .btn-tema-escuro {
+    background-color: var(--cor-secundaria);
+}
+/* O asterisco aplica a regra a todos os elementos do site */
+* {
+    transition: background-color 0.3s ease;
+article {
+    display: flex;
+    /* x-offset | y-offset | blur-radius | color (com transparência) */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+
 <h2>Meu primeiro post</h2>
 <p>Por: Emilli Vitória</p>
 <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
